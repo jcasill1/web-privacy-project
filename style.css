@@ -1,4 +1,4 @@
-/* General page styling */
+/* page styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header styling */
+/* Header style */
 header {
     background-color: #17324d;
     color: white;
@@ -15,7 +15,7 @@ header {
     padding: 30px;
 }
 
-/* Navigation using Flexbox */
+/* Flexbox */
 nav {
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ nav {
     padding: 12px;
 }
 
-/* Navigation link styling */
+/* Navigation style */
 nav a {
     color: white;
     text-decoration: none;
@@ -38,14 +38,14 @@ nav a:hover {
     border-radius: 4px;
 }
 
-/* Main content area */
+/* Main content */
 main {
     max-width: 900px;
     margin: 25px auto;
     padding: 20px;
 }
 
-/* Content sections */
+/* sections */
 section {
     background-color: white;
     padding: 25px;
@@ -54,7 +54,7 @@ section {
     border-radius: 6px;
 }
 
-/* Section headings */
+/* headings */
 h2 {
     color: #17324d;
 }
@@ -70,7 +70,7 @@ footer {
 footer a {
     color: #d4e8ff;
 }
-/* Styling for comparison tables */
+/* comparison tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -78,7 +78,7 @@ table {
     margin-bottom: 20px;
 }
 
-/* Table headings and cells */
+/* headings and cells */
 th, td {
     border: 1px solid #ccc;
     padding: 12px;
@@ -91,12 +91,25 @@ th {
     color: white;
 }
 
-/* Alternate row colors */
+/* row colors */
 tr:nth-child(even) {
     background-color: #f0f4f8;
 }
 
-/* Highlight table rows on hover */
+/* highlight table rows on hover */
 tr:hover {
     background-color: #e3edf5;
+}
+/* Class selector */
+.important-note {
+    background-color: #eaf2f8;
+    border-left: 4px solid #284b6a;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* ID selector */
+#home-intro {
+    border-top: 4px solid #41749c;
 }
