@@ -113,3 +113,12 @@ tr:hover {
 #home-intro {
     border-top: 4px solid #41749c;
 }
+/* Homepage privacy */
+.privacy-image {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 20px auto 0;
+    border-radius: 6px;
+}
